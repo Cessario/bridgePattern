@@ -26,13 +26,13 @@ public class pesananMakanan implements Pesanan{
     }
 
     @Override
-    public void setPerproses(int persen) {
-        if (persen > 100) {
+    public void setPerproses(int perproses) {
+        if (perproses > 100) {
             this.persen = 100;
-        } else if (persen < 0) {
+        } else if (perproses < 0) {
             this.persen = 0;
         } else {
-            this.persen = persen;
+            this.persen = perproses;
         }
 
     }
@@ -44,7 +44,7 @@ public class pesananMakanan implements Pesanan{
 
     @Override
     public void setNomorpesan(int nomorpesan) {
-        this.noMeja = noMeja;
+        this.noMeja = nomorpesan;
 
     }
 
