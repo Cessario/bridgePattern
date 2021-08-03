@@ -12,6 +12,7 @@ public class Client {
         buatMakananselesai bMKNs = new buatMakananselesai(pesanan);
         bMKNs.statusPesan();
         bMKNs.persenTambah();
+        bMKNs.selesai();
         pesanan.printStatus();
 
 
